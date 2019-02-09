@@ -1,0 +1,14 @@
+{
+  "name": "vscode-textlint-issue-vue",
+  "private": true,
+  "dependencies": {
+    "textlint": "^11.2.1",
+    "textlint-plugin-html": "^0.2.0",
+    "textlint-rule-no-todo": "^2.0.1"
+  },
+  "scripts": {
+    "test": "textlint test.md test.html test.vue"
+  },
+  "author": "karak<karak97@gmail.com>",
+  "license": ""
+}
